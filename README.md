@@ -53,3 +53,4 @@ The Rekor transparency log for the previous signed TaskRun can be found here: ht
 
 There are still upcoming features such as:
 - Integrating with Hashicorp Vault to store secrets in a GitOps approach and mount them in the pipeline for Git usernames/password, Registry tokens, Application workloads, without having plain values stored in the Git repository.
+- Documentation of SLSA level compliance for each of the features
