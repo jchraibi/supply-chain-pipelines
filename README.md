@@ -12,7 +12,7 @@ The following pipeline shows security features applied into a CI/CD pipelines:
 - Provide provenance attestations and store them in Rekor: https://github.com/sigstore/rekor
 - Scan container images using Red Hat Advanced Security for Kubernetes (RHACS) and use results as a gate in the pipeline: https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes
 - Scan OpenShift resources (deployment, etc) using RHACS (kubelinter) for best-practices, such as non-privileged users: https://github.com/stackrox/kube-linter
-- Deploy application to multiple clusters using OpenShift GitOps (based on argocd) and using Pull-Request workflow to promote application through different environments (from DEV to Staging)
+- Deploy application to multiple clusters using Red HAT Advanced Cluster Management for Kubernetes (RHACM) and OpenShift GitOps (based on argocd) and using Pull-Request workflow to promote application through different environments (from DEV to Staging)
 
 <img width="1395" alt="image" src="https://user-images.githubusercontent.com/19349382/182812739-cb6b4da3-4f79-4b34-9ba5-f3650d9c2128.png">
 
