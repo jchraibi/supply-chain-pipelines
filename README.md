@@ -36,7 +36,7 @@ This task uses the syft cli to generate a SBOM based on the application code. Sy
 The OpenShift Pipelines Operator allows you to easily add Tekton Chains in your cluster through a simple configuration, and thus sign all TaskRuns and container images that are produced within the pipeline.
 Here is a sample of a signed TaskRun that is adding the signed payload as an annotation to the Tekton TaskRun:
 
-[source,asciidoc]
+[source,yaml]
 ----
 apiVersion: tekton.dev/v1beta1
 kind: TaskRun
