@@ -18,10 +18,11 @@ The following pipeline shows security features applied into a CI/CD pipelines:
 
 Below are some high-level highlights of the security features implemented:
 
-# Scan Application code using CodeReady Dependency Analytics
-
+## Scan Application code using CodeReady Dependency Analytics
 ## Pipeline task: crda-scan
+
 The CLI tool allows to scan application code and provide feedback about used libraries and dependencies, and provides a report similar to this:
 
+<img width="1666" alt="image" src="https://user-images.githubusercontent.com/19349382/182817459-46bb0c56-76e6-4282-8169-f1d28694ff4c.png">
 
 
