@@ -1,4 +1,4 @@
-# supply-chain-pipelines
+# Software Supply Chain Security 
 
 The following pipeline shows security features applied into a CI/CD pipelines:
 - Clone code from a Git repository
