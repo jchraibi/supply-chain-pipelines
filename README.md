@@ -16,6 +16,8 @@ The following pipeline shows security features applied into a CI/CD pipelines:
 
 <img width="1395" alt="image" src="https://user-images.githubusercontent.com/19349382/182812739-cb6b4da3-4f79-4b34-9ba5-f3650d9c2128.png">
 
+- Verify images deployed to target clusters using RHACS sigstore integration
+
 Below are some high-level highlights of the security features implemented:
 
 ## Scan Application code using CodeReady Dependency Analytics
